@@ -57,7 +57,7 @@
         "port": 443,
         "protocol": "shadowsocks",
         "settings": {
-            "method": "none",
+            "method": "aes-128-gcm",
             "password": "VMESS_UUID"
         },
         "streamSettings": {
