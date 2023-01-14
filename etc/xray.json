@@ -35,6 +35,23 @@
                 "path": "/vless"
             }
         }
+    },
+    {
+        "port": 443,
+        "protocol": "trojan",
+        "settings": {
+            "clients": [
+                {
+                    "password": "VMESS_UUID"
+                }
+            ]
+        },
+        "streamSettings": {
+            "network": "ws",
+            "wsSettings": {
+                "path": "/trojan"
+            }
+        }
     }
   ],
     "outbounds": [
@@ -72,6 +89,7 @@
             }
         }
     ],
+    
     "routing": {
         "rules": [
             {
@@ -95,6 +113,13 @@
                     "geosite:category-ads-all"
                 ]
             }
+        ]
+    },
+    "dns": {
+        "servers": [
+            "https://unfiltered.adguard-dns.com/dns-query",
+            "https://dns.google/dns-query",
+            "https://dns.cloudflare.com/dns-query"
         ]
     }
 }
