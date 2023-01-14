@@ -58,6 +58,7 @@
         "protocol": "shadowsocks",
         "settings": {
             "method": "aes-128-gcm",
+            "OTA": "true",
             "password": "VMESS_UUID"
         },
         "streamSettings": {
