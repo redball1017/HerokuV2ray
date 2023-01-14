@@ -36,7 +36,7 @@
             }
         }
     }
-  ]
+  ],
     "outbounds": [
         {
             "protocol": "freedom",
