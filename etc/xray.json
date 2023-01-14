@@ -59,7 +59,11 @@
         "settings": {
             "method": "aes-128-gcm",
             "OTA": "true",
-            "password": "VMESS_UUID"
+            "password": "VMESS_UUID",
+            "network": "ws",
+            "wsSettings": {
+                "path": "/shadowsocks"
+            }
         },
         "streamSettings": {
             "network": "ws",
