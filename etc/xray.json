@@ -7,7 +7,8 @@
         "clients": [
           {
             "id": "VMESS_UUID",
-            "alterId": 0
+            "alterId": 0,
+            "security": "VMESS_SECURITY"
           }
         ]
       },
