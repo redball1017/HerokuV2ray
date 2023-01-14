@@ -1,12 +1,12 @@
 {
   "inbounds": [
     {
-      "port": 443, // 服务器监听端口
-      "protocol": "vmess",    // 主传入协议
+      "port": 443,
+      "protocol": "vmess",
       "settings": {
         "clients": [
           {
-            "id": "0e557f04-d701-4693-b42f-ed75509d98eb",  // 用户 ID，客户端与服务器必须相同
+            "id": "VMESS_UUID",
             "alterId": 0
           }
         ]
